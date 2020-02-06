@@ -4,9 +4,11 @@ package com.example.cipherkeypad;
 import android.inputmethodservice.InputMethodService;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
-public class MainkeyBoard extends InputMethodService implements View.OnClickListener {
-
+public class MainkeyBoard extends InputMethodService implements View.OnClickListener{
+    LinearLayout[] vertical_LinearLayout;
+    LinearLayout[] horizen_LinearLayout;
 
 
     Button[] button1;
@@ -16,7 +18,6 @@ public class MainkeyBoard extends InputMethodService implements View.OnClickList
         boolean flag = false;
         flag = init();
         if (flag) {
-
         } else {
             return;
         }
@@ -33,16 +34,17 @@ public class MainkeyBoard extends InputMethodService implements View.OnClickList
     public void onClick(View v) {
 
 
-        switch(v.getId()){
+        switch (v.getId()) {
 
         }
     }
 
     public boolean init() {
-        boolean flag = false;
+        boolean flag = true;
 
         button1 = new Button[3];
-        
+        LinearLayout[] vertical_LinearLayout= new LinearLayout[5];
+        for (LinearLayout linearlayout : vertical_LinearLayout)
         for (int i = 0; i < 3; i++) {
 
         }
