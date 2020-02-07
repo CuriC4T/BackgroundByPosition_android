@@ -6,10 +6,10 @@
     android:layout_height="match_parent">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/keyboard_key"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:text="test"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
