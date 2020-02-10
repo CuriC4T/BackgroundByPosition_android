@@ -19,32 +19,36 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/key_0"
+                    layout="@layout/keyboard_item"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="-1"/>
+
+                <Button
                     android:id="@+id/key_1"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_2"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_3"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <Button
-                    android:id="@+id/key_4"
-                    layout="@layout/keyboard_item"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
 
             </LinearLayout>
@@ -59,34 +63,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+                <Button
+                    android:id="@+id/key_4"
+                    layout="@layout/keyboard_item"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_5"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_6"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_7"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
-                <Button
-                    android:id="@+id/key_8"
-                    layout="@layout/keyboard_item"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
+
 
 
             </LinearLayout>
@@ -102,34 +111,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
-
+                <Button
+                    android:id="@+id/key_8"
+                    layout="@layout/keyboard_item"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="-1"/>
                 <Button
                     android:id="@+id/key_9"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_10"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
                 <Button
                     android:id="@+id/key_11"
                     layout="@layout/keyboard_item"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
-                <Button
-                    android:id="@+id/key_12"
-                    layout="@layout/keyboard_item"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
+
 
 
             </LinearLayout>
@@ -149,19 +162,21 @@
 
 
                 <Button
+                    android:id="@+id/key_12"
+                    layout="@layout/keyboard_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="-1"/>
+
+
+                <Button
                     android:id="@+id/key_13"
                     layout="@layout/keyboard_item"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-
-                <Button
-                    android:id="@+id/key_14"
-                    layout="@layout/keyboard_item"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:text="-1"/>
 
 
             </LinearLayout>
